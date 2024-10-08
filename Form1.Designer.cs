@@ -32,9 +32,9 @@
             this.выбратьФонToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.фон1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.фон2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.фон3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.обИгреToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.помощьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.фон3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,6 +49,7 @@
             this.помощьToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
             this.menuStrip1.Size = new System.Drawing.Size(1803, 73);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
@@ -71,7 +72,7 @@
             this.фон1ToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.фон1ToolStripMenuItem.Image = global::ТРПО27.Properties.Resources.landscape12;
             this.фон1ToolStripMenuItem.Name = "фон1ToolStripMenuItem";
-            this.фон1ToolStripMenuItem.Size = new System.Drawing.Size(359, 74);
+            this.фон1ToolStripMenuItem.Size = new System.Drawing.Size(305, 74);
             this.фон1ToolStripMenuItem.Text = "фон 1";
             this.фон1ToolStripMenuItem.Click += new System.EventHandler(this.фон1ToolStripMenuItem_Click);
             // 
@@ -79,8 +80,17 @@
             // 
             this.фон2ToolStripMenuItem.Image = global::ТРПО27.Properties.Resources.landscape13;
             this.фон2ToolStripMenuItem.Name = "фон2ToolStripMenuItem";
-            this.фон2ToolStripMenuItem.Size = new System.Drawing.Size(359, 74);
+            this.фон2ToolStripMenuItem.Size = new System.Drawing.Size(305, 74);
             this.фон2ToolStripMenuItem.Text = "Фон 2";
+            this.фон2ToolStripMenuItem.Click += new System.EventHandler(this.фон2ToolStripMenuItem_Click);
+            // 
+            // фон3ToolStripMenuItem
+            // 
+            this.фон3ToolStripMenuItem.Image = global::ТРПО27.Properties.Resources.landscape11;
+            this.фон3ToolStripMenuItem.Name = "фон3ToolStripMenuItem";
+            this.фон3ToolStripMenuItem.Size = new System.Drawing.Size(305, 74);
+            this.фон3ToolStripMenuItem.Text = "Фон 3";
+            this.фон3ToolStripMenuItem.Click += new System.EventHandler(this.фон3ToolStripMenuItem_Click);
             // 
             // обИгреToolStripMenuItem
             // 
@@ -89,6 +99,7 @@
             this.обИгреToolStripMenuItem.Name = "обИгреToolStripMenuItem";
             this.обИгреToolStripMenuItem.Size = new System.Drawing.Size(224, 69);
             this.обИгреToolStripMenuItem.Text = "Об игре";
+            this.обИгреToolStripMenuItem.Click += new System.EventHandler(this.обИгреToolStripMenuItem_Click);
             // 
             // помощьToolStripMenuItem
             // 
@@ -97,13 +108,7 @@
             this.помощьToolStripMenuItem.Name = "помощьToolStripMenuItem";
             this.помощьToolStripMenuItem.Size = new System.Drawing.Size(236, 69);
             this.помощьToolStripMenuItem.Text = "Помощь";
-            // 
-            // фон3ToolStripMenuItem
-            // 
-            this.фон3ToolStripMenuItem.Image = global::ТРПО27.Properties.Resources.landscape11;
-            this.фон3ToolStripMenuItem.Name = "фон3ToolStripMenuItem";
-            this.фон3ToolStripMenuItem.Size = new System.Drawing.Size(359, 74);
-            this.фон3ToolStripMenuItem.Text = "Фон 3";
+            this.помощьToolStripMenuItem.Click += new System.EventHandler(this.помощьToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -111,7 +116,6 @@
             this.AutoScroll = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
-            this.BackgroundImage = global::ТРПО27.Properties.Resources.landscape11;
             this.ClientSize = new System.Drawing.Size(1803, 1060);
             this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Times New Roman", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
