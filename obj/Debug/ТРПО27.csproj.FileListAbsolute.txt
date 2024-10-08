@@ -1,0 +1,10 @@
+C:\Users\Анастасия\source\repos\ТРПО27\ТРПО27\bin\Debug\ТРПО27.exe.config
+C:\Users\Анастасия\source\repos\ТРПО27\ТРПО27\bin\Debug\ТРПО27.exe
+C:\Users\Анастасия\source\repos\ТРПО27\ТРПО27\bin\Debug\ТРПО27.pdb
+C:\Users\Анастасия\source\repos\ТРПО27\ТРПО27\obj\Debug\ТРПО27.csproj.AssemblyReference.cache
+C:\Users\Анастасия\source\repos\ТРПО27\ТРПО27\obj\Debug\ТРПО27.Form1.resources
+C:\Users\Анастасия\source\repos\ТРПО27\ТРПО27\obj\Debug\ТРПО27.Properties.Resources.resources
+C:\Users\Анастасия\source\repos\ТРПО27\ТРПО27\obj\Debug\ТРПО27.csproj.GenerateResource.cache
+C:\Users\Анастасия\source\repos\ТРПО27\ТРПО27\obj\Debug\ТРПО27.csproj.CoreCompileInputs.cache
+C:\Users\Анастасия\source\repos\ТРПО27\ТРПО27\obj\Debug\ТРПО27.exe
+C:\Users\Анастасия\source\repos\ТРПО27\ТРПО27\obj\Debug\ТРПО27.pdb
