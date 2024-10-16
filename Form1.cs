@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,17 +25,17 @@ namespace ТРПО27
 
         private void фон1ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.BackgroundImage = Image.FromFile(@"C:\Users\Анастасия\source\repos\ТРПО27\ТРПО27\Resources\landscape12.jpg");
+            this.BackgroundImage = Image.FromFile(@"landscape12.jpg");
         }
 
         private void фон2ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.BackgroundImage = Image.FromFile(@"C:\Users\Анастасия\source\repos\ТРПО27\ТРПО27\Resources\landscape13.jpg");
+            this.BackgroundImage = Image.FromFile(@"landscape13.jpg");
         }
 
         private void фон3ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.BackgroundImage = Image.FromFile(@"C:\Users\Анастасия\source\repos\ТРПО27\ТРПО27\Resources\landscape11.jpg");
+            this.BackgroundImage = Image.FromFile(@"landscape11.jpg");
         }
 
         private void обИгреToolStripMenuItem_Click(object sender, EventArgs e)
@@ -47,6 +48,18 @@ namespace ТРПО27
             MessageBox.Show("Нажмите <<Сменить фон>> для смены фона.\n" +
                 "Нажмите<<Выбрать персонажа>> для смены персонажа.\n" +
                 "Нажмите<<Старт>> для начала игры.");
+        }
+
+        private void Start_Click(object sender, EventArgs e)
+        {
+           Form2 form2 = new Form2();
+            form2.Show();
+            this.Hide();
+        }
+
+        private void Start_Paint(object sender, PaintEventArgs e)
+        {
+          
         }
     }
 }

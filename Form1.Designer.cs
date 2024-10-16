@@ -35,7 +35,24 @@
             this.фон3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.обИгреToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.помощьToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.FirstCharF = new System.Windows.Forms.PictureBox();
+            this.SecondCharF = new System.Windows.Forms.PictureBox();
+            this.ThirdCharF = new System.Windows.Forms.PictureBox();
+            this.FourthCharF = new System.Windows.Forms.PictureBox();
+            this.FourthCharS = new System.Windows.Forms.PictureBox();
+            this.ThirdCharS = new System.Windows.Forms.PictureBox();
+            this.SecondCharS = new System.Windows.Forms.PictureBox();
+            this.FirstCharS = new System.Windows.Forms.PictureBox();
+            this.Start = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.FirstCharF)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SecondCharF)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ThirdCharF)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FourthCharF)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FourthCharS)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ThirdCharS)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SecondCharS)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FirstCharS)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -49,8 +66,8 @@
             this.помощьToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-            this.menuStrip1.Size = new System.Drawing.Size(1803, 73);
+            this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
+            this.menuStrip1.Size = new System.Drawing.Size(1414, 73);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked_1);
@@ -110,22 +127,117 @@
             this.помощьToolStripMenuItem.Text = "Помощь";
             this.помощьToolStripMenuItem.Click += new System.EventHandler(this.помощьToolStripMenuItem_Click);
             // 
+            // FirstCharF
+            // 
+            this.FirstCharF.Location = new System.Drawing.Point(49, 184);
+            this.FirstCharF.Name = "FirstCharF";
+            this.FirstCharF.Size = new System.Drawing.Size(135, 133);
+            this.FirstCharF.TabIndex = 1;
+            this.FirstCharF.TabStop = false;
+            // 
+            // SecondCharF
+            // 
+            this.SecondCharF.Location = new System.Drawing.Point(313, 184);
+            this.SecondCharF.Name = "SecondCharF";
+            this.SecondCharF.Size = new System.Drawing.Size(135, 133);
+            this.SecondCharF.TabIndex = 2;
+            this.SecondCharF.TabStop = false;
+            // 
+            // ThirdCharF
+            // 
+            this.ThirdCharF.Location = new System.Drawing.Point(49, 384);
+            this.ThirdCharF.Name = "ThirdCharF";
+            this.ThirdCharF.Size = new System.Drawing.Size(135, 133);
+            this.ThirdCharF.TabIndex = 3;
+            this.ThirdCharF.TabStop = false;
+            // 
+            // FourthCharF
+            // 
+            this.FourthCharF.Location = new System.Drawing.Point(313, 384);
+            this.FourthCharF.Name = "FourthCharF";
+            this.FourthCharF.Size = new System.Drawing.Size(135, 133);
+            this.FourthCharF.TabIndex = 4;
+            this.FourthCharF.TabStop = false;
+            // 
+            // FourthCharS
+            // 
+            this.FourthCharS.Location = new System.Drawing.Point(1196, 384);
+            this.FourthCharS.Name = "FourthCharS";
+            this.FourthCharS.Size = new System.Drawing.Size(135, 133);
+            this.FourthCharS.TabIndex = 8;
+            this.FourthCharS.TabStop = false;
+            // 
+            // ThirdCharS
+            // 
+            this.ThirdCharS.Location = new System.Drawing.Point(932, 384);
+            this.ThirdCharS.Name = "ThirdCharS";
+            this.ThirdCharS.Size = new System.Drawing.Size(135, 133);
+            this.ThirdCharS.TabIndex = 7;
+            this.ThirdCharS.TabStop = false;
+            // 
+            // SecondCharS
+            // 
+            this.SecondCharS.Location = new System.Drawing.Point(1196, 184);
+            this.SecondCharS.Name = "SecondCharS";
+            this.SecondCharS.Size = new System.Drawing.Size(135, 133);
+            this.SecondCharS.TabIndex = 6;
+            this.SecondCharS.TabStop = false;
+            // 
+            // FirstCharS
+            // 
+            this.FirstCharS.Location = new System.Drawing.Point(932, 184);
+            this.FirstCharS.Name = "FirstCharS";
+            this.FirstCharS.Size = new System.Drawing.Size(135, 133);
+            this.FirstCharS.TabIndex = 5;
+            this.FirstCharS.TabStop = false;
+            // 
+            // Start
+            // 
+            this.Start.BackColor = System.Drawing.Color.Transparent;
+            this.Start.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Start.Font = new System.Drawing.Font("Times New Roman", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Start.Location = new System.Drawing.Point(495, 646);
+            this.Start.Name = "Start";
+            this.Start.Size = new System.Drawing.Size(441, 113);
+            this.Start.TabIndex = 10;
+            this.Start.Text = "Играть";
+            this.Start.UseVisualStyleBackColor = false;
+            this.Start.Click += new System.EventHandler(this.Start_Click);
+            this.Start.Paint += new System.Windows.Forms.PaintEventHandler(this.Start_Paint);
+            // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoScroll = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
-            this.ClientSize = new System.Drawing.Size(1803, 1060);
+            this.BackgroundImage = global::ТРПО27.Properties.Resources.landscape11;
+            this.ClientSize = new System.Drawing.Size(1414, 829);
+            this.Controls.Add(this.Start);
+            this.Controls.Add(this.FourthCharS);
+            this.Controls.Add(this.ThirdCharS);
+            this.Controls.Add(this.SecondCharS);
+            this.Controls.Add(this.FirstCharS);
+            this.Controls.Add(this.FourthCharF);
+            this.Controls.Add(this.ThirdCharF);
+            this.Controls.Add(this.SecondCharF);
+            this.Controls.Add(this.FirstCharF);
             this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Times New Roman", 7.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Jump";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.FirstCharF)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SecondCharF)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ThirdCharF)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FourthCharF)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FourthCharS)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ThirdCharS)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.SecondCharS)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.FirstCharS)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -140,6 +252,15 @@
         private System.Windows.Forms.ToolStripMenuItem фон1ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem фон2ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem фон3ToolStripMenuItem;
+        private System.Windows.Forms.PictureBox FirstCharF;
+        private System.Windows.Forms.PictureBox SecondCharF;
+        private System.Windows.Forms.PictureBox ThirdCharF;
+        private System.Windows.Forms.PictureBox FourthCharF;
+        private System.Windows.Forms.PictureBox FourthCharS;
+        private System.Windows.Forms.PictureBox ThirdCharS;
+        private System.Windows.Forms.PictureBox SecondCharS;
+        private System.Windows.Forms.PictureBox FirstCharS;
+        private System.Windows.Forms.Button Start;
     }
 }
 
