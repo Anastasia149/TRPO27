@@ -129,11 +129,14 @@
             // 
             // FirstCharF
             // 
+            this.FirstCharF.Image = global::ТРПО27.Properties.Resources.photo3;
             this.FirstCharF.Location = new System.Drawing.Point(49, 184);
             this.FirstCharF.Name = "FirstCharF";
-            this.FirstCharF.Size = new System.Drawing.Size(135, 133);
+            this.FirstCharF.Size = new System.Drawing.Size(135, 135);
+            this.FirstCharF.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.FirstCharF.TabIndex = 1;
             this.FirstCharF.TabStop = false;
+            this.FirstCharF.Click += new System.EventHandler(this.FirstCharF_Click);
             // 
             // SecondCharF
             // 
@@ -142,6 +145,7 @@
             this.SecondCharF.Size = new System.Drawing.Size(135, 133);
             this.SecondCharF.TabIndex = 2;
             this.SecondCharF.TabStop = false;
+            this.SecondCharF.Click += new System.EventHandler(this.SecondCharF_Click);
             // 
             // ThirdCharF
             // 
@@ -150,6 +154,7 @@
             this.ThirdCharF.Size = new System.Drawing.Size(135, 133);
             this.ThirdCharF.TabIndex = 3;
             this.ThirdCharF.TabStop = false;
+            this.ThirdCharF.Click += new System.EventHandler(this.ThirdCharF_Click);
             // 
             // FourthCharF
             // 
@@ -158,6 +163,7 @@
             this.FourthCharF.Size = new System.Drawing.Size(135, 133);
             this.FourthCharF.TabIndex = 4;
             this.FourthCharF.TabStop = false;
+            this.FourthCharF.Click += new System.EventHandler(this.FourthCharF_Click);
             // 
             // FourthCharS
             // 
@@ -166,6 +172,7 @@
             this.FourthCharS.Size = new System.Drawing.Size(135, 133);
             this.FourthCharS.TabIndex = 8;
             this.FourthCharS.TabStop = false;
+            this.FourthCharS.Click += new System.EventHandler(this.FourthCharS_Click);
             // 
             // ThirdCharS
             // 
@@ -174,6 +181,7 @@
             this.ThirdCharS.Size = new System.Drawing.Size(135, 133);
             this.ThirdCharS.TabIndex = 7;
             this.ThirdCharS.TabStop = false;
+            this.ThirdCharS.Click += new System.EventHandler(this.ThirdCharS_Click);
             // 
             // SecondCharS
             // 
@@ -182,6 +190,7 @@
             this.SecondCharS.Size = new System.Drawing.Size(135, 133);
             this.SecondCharS.TabIndex = 6;
             this.SecondCharS.TabStop = false;
+            this.SecondCharS.Click += new System.EventHandler(this.SecondCharS_Click);
             // 
             // FirstCharS
             // 
@@ -190,6 +199,7 @@
             this.FirstCharS.Size = new System.Drawing.Size(135, 133);
             this.FirstCharS.TabIndex = 5;
             this.FirstCharS.TabStop = false;
+            this.FirstCharS.Click += new System.EventHandler(this.FirstCharS_Click);
             // 
             // Start
             // 
@@ -252,14 +262,14 @@
         private System.Windows.Forms.ToolStripMenuItem фон1ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem фон2ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem фон3ToolStripMenuItem;
-        private System.Windows.Forms.PictureBox FirstCharF;
-        private System.Windows.Forms.PictureBox SecondCharF;
-        private System.Windows.Forms.PictureBox ThirdCharF;
-        private System.Windows.Forms.PictureBox FourthCharF;
-        private System.Windows.Forms.PictureBox FourthCharS;
-        private System.Windows.Forms.PictureBox ThirdCharS;
-        private System.Windows.Forms.PictureBox SecondCharS;
-        private System.Windows.Forms.PictureBox FirstCharS;
+        public System.Windows.Forms.PictureBox FirstCharF;
+        public System.Windows.Forms.PictureBox SecondCharF;
+        public System.Windows.Forms.PictureBox ThirdCharF;
+        public System.Windows.Forms.PictureBox FourthCharF;
+        public System.Windows.Forms.PictureBox FourthCharS;
+        public System.Windows.Forms.PictureBox ThirdCharS;
+        public System.Windows.Forms.PictureBox SecondCharS;
+        public System.Windows.Forms.PictureBox FirstCharS;
         private System.Windows.Forms.Button Start;
     }
 }
