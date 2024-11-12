@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ТРПО27
@@ -34,8 +28,6 @@ namespace ТРПО27
         Random rand = new Random();
         int platformHeight = 20;
         int platformWidth = 130;
-
-
 
         private void Form2_KeyUp(object sender, KeyEventArgs e)
         {
@@ -68,7 +60,6 @@ namespace ТРПО27
             this.WindowState = FormWindowState.Maximized; // Полноэкранный режим
             this.Text = "Jump";
             this.DoubleBuffered = true;
-            this.BackgroundImage = form1Instance.BackgroundImage;
 
             // Разделяющая граница
             boundary = new Panel
@@ -203,7 +194,7 @@ namespace ТРПО27
                 Dock = DockStyle.Fill, // Заполнение всей формы
                 TextAlign = ContentAlignment.MiddleCenter, // Выравнивание по центру
                 ForeColor = Color.Black,
-                BackColor = Color.LightBlue // Добавлено для лучшей видимости
+                BackgroundImage = form1Instance.BackgroundImage, // Добавлено для лучшей видимости
             };
             this.Controls.Add(countdownLabel);
 
@@ -583,11 +574,6 @@ namespace ТРПО27
             boundary.Location = new Point(this.ClientSize.Width / 2 - boundary.Width / 2, 0);
 
             scoreLabel2.Location = new Point(this.ClientSize.Width - 100, 10);
-        }
-
-        private void Form2_Load(object sender, EventArgs e)
-        {
-
         }
 
         

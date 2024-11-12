@@ -21,9 +21,6 @@ namespace ТРПО27
         public bool isSecondCharSSelected { get; private set; } = false;
         public bool isThirdCharSSelected { get; private set; } = false;
         public bool isFourthCharSSelected { get; private set; } = false;
-
-        public bool[] isCharFSelected = new bool[4]; // Для первого набора персонажей
-        public bool[] isCharSSelected = new bool[4]; // Для второго набора персонажей
         Label player1ScoreLabel;
         Label player2ScoreLabel;
         Label scoree;
@@ -71,17 +68,23 @@ namespace ТРПО27
 
         private void фон1ToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Form2 form2 = new Form2(this);
             this.BackgroundImage = Image.FromFile(@"landscape12.jpg");
+            form2.BackgroundImage = this.BackgroundImage;
         }
 
         private void фон2ToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Form2 form2 = new Form2(this);
             this.BackgroundImage = Image.FromFile(@"landscape13.jpg");
+            form2.BackgroundImage = this.BackgroundImage;
         }
 
         private void фон3ToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            Form2 form2 = new Form2(this);
             this.BackgroundImage = Image.FromFile(@"landscape11.jpg");
+            form2.BackgroundImage = this.BackgroundImage;
         }
 
         private void обИгреToolStripMenuItem_Click(object sender, EventArgs e)

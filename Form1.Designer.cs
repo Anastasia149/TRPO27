@@ -259,9 +259,9 @@
         private System.Windows.Forms.ToolStripMenuItem выбратьФонToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem обИгреToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem помощьToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem фон1ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem фон2ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem фон3ToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem фон1ToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem фон2ToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem фон3ToolStripMenuItem;
         public System.Windows.Forms.PictureBox FirstCharF;
         public System.Windows.Forms.PictureBox SecondCharF;
         public System.Windows.Forms.PictureBox ThirdCharF;
