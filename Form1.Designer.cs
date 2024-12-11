@@ -87,25 +87,25 @@
             // фон1ToolStripMenuItem
             // 
             this.фон1ToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.фон1ToolStripMenuItem.Image = global::ТРПО27.Properties.Resources.landscape12;
+            this.фон1ToolStripMenuItem.Image = global::ТРПО27.Properties.Resources.landscape1;
             this.фон1ToolStripMenuItem.Name = "фон1ToolStripMenuItem";
-            this.фон1ToolStripMenuItem.Size = new System.Drawing.Size(305, 74);
+            this.фон1ToolStripMenuItem.Size = new System.Drawing.Size(359, 74);
             this.фон1ToolStripMenuItem.Text = "фон 1";
             this.фон1ToolStripMenuItem.Click += new System.EventHandler(this.фон1ToolStripMenuItem_Click);
             // 
             // фон2ToolStripMenuItem
             // 
-            this.фон2ToolStripMenuItem.Image = global::ТРПО27.Properties.Resources.landscape13;
+            this.фон2ToolStripMenuItem.Image = global::ТРПО27.Properties.Resources.landscape5;
             this.фон2ToolStripMenuItem.Name = "фон2ToolStripMenuItem";
-            this.фон2ToolStripMenuItem.Size = new System.Drawing.Size(305, 74);
+            this.фон2ToolStripMenuItem.Size = new System.Drawing.Size(359, 74);
             this.фон2ToolStripMenuItem.Text = "Фон 2";
             this.фон2ToolStripMenuItem.Click += new System.EventHandler(this.фон2ToolStripMenuItem_Click);
             // 
             // фон3ToolStripMenuItem
             // 
-            this.фон3ToolStripMenuItem.Image = global::ТРПО27.Properties.Resources.landscape11;
+            this.фон3ToolStripMenuItem.Image = global::ТРПО27.Properties.Resources.landscape3;
             this.фон3ToolStripMenuItem.Name = "фон3ToolStripMenuItem";
-            this.фон3ToolStripMenuItem.Size = new System.Drawing.Size(305, 74);
+            this.фон3ToolStripMenuItem.Size = new System.Drawing.Size(359, 74);
             this.фон3ToolStripMenuItem.Text = "Фон 3";
             this.фон3ToolStripMenuItem.Click += new System.EventHandler(this.фон3ToolStripMenuItem_Click);
             // 
@@ -140,63 +140,77 @@
             // 
             // SecondCharF
             // 
+            this.SecondCharF.Image = global::ТРПО27.Properties.Resources.Anya;
             this.SecondCharF.Location = new System.Drawing.Point(313, 184);
             this.SecondCharF.Name = "SecondCharF";
             this.SecondCharF.Size = new System.Drawing.Size(135, 133);
+            this.SecondCharF.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.SecondCharF.TabIndex = 2;
             this.SecondCharF.TabStop = false;
             this.SecondCharF.Click += new System.EventHandler(this.SecondCharF_Click);
             // 
             // ThirdCharF
             // 
+            this.ThirdCharF.Image = global::ТРПО27.Properties.Resources.Polina;
             this.ThirdCharF.Location = new System.Drawing.Point(49, 384);
             this.ThirdCharF.Name = "ThirdCharF";
             this.ThirdCharF.Size = new System.Drawing.Size(135, 133);
+            this.ThirdCharF.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ThirdCharF.TabIndex = 3;
             this.ThirdCharF.TabStop = false;
             this.ThirdCharF.Click += new System.EventHandler(this.ThirdCharF_Click);
             // 
             // FourthCharF
             // 
+            this.FourthCharF.Image = global::ТРПО27.Properties.Resources.Liza;
             this.FourthCharF.Location = new System.Drawing.Point(313, 384);
             this.FourthCharF.Name = "FourthCharF";
             this.FourthCharF.Size = new System.Drawing.Size(135, 133);
+            this.FourthCharF.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.FourthCharF.TabIndex = 4;
             this.FourthCharF.TabStop = false;
             this.FourthCharF.Click += new System.EventHandler(this.FourthCharF_Click);
             // 
             // FourthCharS
             // 
+            this.FourthCharS.Image = global::ТРПО27.Properties.Resources.Liza;
             this.FourthCharS.Location = new System.Drawing.Point(1196, 384);
             this.FourthCharS.Name = "FourthCharS";
             this.FourthCharS.Size = new System.Drawing.Size(135, 133);
+            this.FourthCharS.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.FourthCharS.TabIndex = 8;
             this.FourthCharS.TabStop = false;
             this.FourthCharS.Click += new System.EventHandler(this.FourthCharS_Click);
             // 
             // ThirdCharS
             // 
+            this.ThirdCharS.Image = global::ТРПО27.Properties.Resources.Polina;
             this.ThirdCharS.Location = new System.Drawing.Point(932, 384);
             this.ThirdCharS.Name = "ThirdCharS";
             this.ThirdCharS.Size = new System.Drawing.Size(135, 133);
+            this.ThirdCharS.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ThirdCharS.TabIndex = 7;
             this.ThirdCharS.TabStop = false;
             this.ThirdCharS.Click += new System.EventHandler(this.ThirdCharS_Click);
             // 
             // SecondCharS
             // 
+            this.SecondCharS.Image = global::ТРПО27.Properties.Resources.Anya;
             this.SecondCharS.Location = new System.Drawing.Point(1196, 184);
             this.SecondCharS.Name = "SecondCharS";
             this.SecondCharS.Size = new System.Drawing.Size(135, 133);
+            this.SecondCharS.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.SecondCharS.TabIndex = 6;
             this.SecondCharS.TabStop = false;
             this.SecondCharS.Click += new System.EventHandler(this.SecondCharS_Click);
             // 
             // FirstCharS
             // 
+            this.FirstCharS.Image = global::ТРПО27.Properties.Resources.photo3;
             this.FirstCharS.Location = new System.Drawing.Point(932, 184);
             this.FirstCharS.Name = "FirstCharS";
             this.FirstCharS.Size = new System.Drawing.Size(135, 133);
+            this.FirstCharS.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.FirstCharS.TabIndex = 5;
             this.FirstCharS.TabStop = false;
             this.FirstCharS.Click += new System.EventHandler(this.FirstCharS_Click);
@@ -221,7 +235,7 @@
             this.AutoScroll = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
-            this.BackgroundImage = global::ТРПО27.Properties.Resources.landscape11;
+            this.BackgroundImage = global::ТРПО27.Properties.Resources.landscape1;
             this.ClientSize = new System.Drawing.Size(1414, 829);
             this.Controls.Add(this.Start);
             this.Controls.Add(this.FourthCharS);

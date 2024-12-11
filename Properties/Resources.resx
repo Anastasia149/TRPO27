@@ -118,16 +118,40 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="landscape11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\landscape11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="landscape1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\landscape14.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="landscape13" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\landscape13.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="landscape2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\landscape21.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Anya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Anya1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Polina" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Polina1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="landscape12" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\landscape12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="photo3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\photo3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="landscape4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\landscape4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="landscape13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\landscape13.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="landscape11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\landscape11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Liza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Liza1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="landscape3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\landscape31.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="landscape5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\landscape5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

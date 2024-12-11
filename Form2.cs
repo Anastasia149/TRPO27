@@ -85,38 +85,29 @@ namespace ТРПО27
                 SizeMode = PictureBoxSizeMode.StretchImage,
             };
 
-            if (form1Instance.isFirstCharSelected)
+            switch (true)
             {
-                doodle1.Image = form1Instance.FirstCharF.Image;
+                case var _ when form1Instance.isFirstCharSelected:
+                    doodle1.Image = form1Instance.FirstCharF.Image;
+                    break;
+
+                case var _ when form1Instance.isSecondCharSelected:
+                    doodle1.Image = form1Instance.SecondCharF.Image;
+                    break;
+
+                case var _ when form1Instance.isThirdCharSelected:
+                    doodle1.Image = form1Instance.ThirdCharF.Image;
+                    break;
+
+                case var _ when form1Instance.isFourthCharSelected:
+                    doodle1.Image = form1Instance.FourthCharF.Image;
+                    break;
+
+                default:
+                    doodle1.Image = form1Instance.FirstCharF.Image;
+                    break;
             }
-            else
-            {
-                doodle1.Image = form1Instance.FirstCharF.Image; 
-            }
-            if (form1Instance.isSecondCharSelected)
-            {
-                doodle1.Image = form1Instance.SecondCharF.Image;
-            }
-            else
-            {
-                doodle1.Image = form1Instance.FirstCharF.Image; 
-            }
-            if (form1Instance.isThirdCharSelected)
-            {
-                doodle1.Image = form1Instance.ThirdCharF.Image;
-            }
-            else
-            {
-                doodle1.Image = form1Instance.FirstCharF.Image;
-            }
-            if (form1Instance.isFourthCharSelected)
-            {
-                doodle1.Image = form1Instance.FourthCharF.Image;
-            }
-            else
-            {
-                doodle1.Image = form1Instance.FirstCharF.Image;
-            }
+
 
             doodle1.Location = new Point(platformsLeft[platformCount - 1].Left + (platformWidth - doodle1.Width) / 2, platformsLeft[platformCount - 1].Top - doodle1.Height);
             this.Controls.Add(doodle1);
@@ -127,39 +118,29 @@ namespace ТРПО27
                 SizeMode = PictureBoxSizeMode.StretchImage,
             };
 
-            if (form1Instance.isFirstCharSSelected)
+            switch (true)
             {
-                doodle2.Image = form1Instance.FirstCharS.Image;
-            }
-            else
-            {
-                doodle2.Image = form1Instance.FirstCharS.Image;
-            }
-            if (form1Instance.isSecondCharSSelected)
-            {
-                doodle2.Image = form1Instance.SecondCharS.Image;
-            }
-            else
-            {
-                doodle2.Image = form1Instance.FirstCharS.Image;
-            }
-            if (form1Instance.isThirdCharSSelected)
-            {
-                doodle2.Image = form1Instance.ThirdCharS.Image;
-            }
-            else
-            {
+                case var _ when form1Instance.isFirstCharSSelected:
+                    doodle2.Image = form1Instance.FirstCharS.Image;
+                    break;
 
-                doodle2.Image = form1Instance.FirstCharS.Image;
+                case var _ when form1Instance.isSecondCharSSelected:
+                    doodle2.Image = form1Instance.SecondCharS.Image;
+                    break;
+
+                case var _ when form1Instance.isThirdCharSSelected:
+                    doodle2.Image = form1Instance.ThirdCharS.Image;
+                    break;
+
+                case var _ when form1Instance.isFourthCharSSelected:
+                    doodle2.Image = form1Instance.FourthCharS.Image;
+                    break;
+
+                default:
+                    doodle2.Image = form1Instance.FirstCharS.Image;
+                    break;
             }
-            if (form1Instance.isFourthCharSSelected)
-            {
-                doodle2.Image = form1Instance.FourthCharS.Image;
-            }
-            else
-            {
-                doodle2.Image = form1Instance.FirstCharS.Image;
-            }
+
 
             doodle2.Location = new Point(platformsRight[platformCount - 1].Left + (platformWidth - doodle2.Width) / 2, platformsRight[platformCount - 1].Top - doodle2.Height);
             this.Controls.Add(doodle2);

@@ -69,21 +69,21 @@ namespace ТРПО27
         private void фон1ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form2 form2 = new Form2(this);
-            this.BackgroundImage = Image.FromFile(@"landscape12.jpg");
+            this.BackgroundImage = Image.FromFile(@"landscape1.jpg");
             form2.BackgroundImage = this.BackgroundImage;
         }
 
         private void фон2ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form2 form2 = new Form2(this);
-            this.BackgroundImage = Image.FromFile(@"landscape13.jpg");
+            this.BackgroundImage = Image.FromFile(@"landscape5.jpg");
             form2.BackgroundImage = this.BackgroundImage;
         }
 
         private void фон3ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form2 form2 = new Form2(this);
-            this.BackgroundImage = Image.FromFile(@"landscape11.jpg");
+            this.BackgroundImage = Image.FromFile(@"landscape3.jpg");
             form2.BackgroundImage = this.BackgroundImage;
         }
 
